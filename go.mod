@@ -1,4 +1,4 @@
-module github.com/nuvolaris/kops
+module github.com/giusdp/embeddable-kops
 
 go 1.17
 
