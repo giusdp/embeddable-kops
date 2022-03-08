@@ -16,9 +16,6 @@ limitations under the License.
 
 package kopscmd // import "k8s.io/kops/cmd/kops"
 
-import "fmt"
-
-func KopsMain() {
-	fmt.Println("aaaa")
-	Execute()
+func KopsMain() error {
+	return Execute()
 }
