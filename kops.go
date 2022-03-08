@@ -16,6 +16,6 @@ limitations under the License.
 
 package kopscmd // import "k8s.io/kops/cmd/kops"
 
-func KopsMain() error {
-	return Execute()
+func KopsMain(args []string) error {
+	return Execute(args)
 }
